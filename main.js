@@ -21,7 +21,8 @@ function pedirNombre(callback) {
   let apellido = prompt("Escribi tu apellido:");
   let verificarLetras = /^[A-Za-zÁÉÍÓÚáéíóúÑñ]+$/;
 
-  if(nombre.match(verificarLetras) && apellido.match(verificarLetras)){
+  if(nombre.match(verificarLetras) && apellido.match(verificarLetras))// Verifica que se escriban letras
+  {
     callback(nombre, apellido);
   } else {
     alert("Error, vuelva a intentarlo.")
