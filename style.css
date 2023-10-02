@@ -1,0 +1,20 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 241, 1) 50%, rgba(252, 69, 122, 1) 100%);
+}
+
+.container{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font: 16vh"ubuntu", sans-serif;
+    color: 	#f1e8dc;
+}
